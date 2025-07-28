@@ -1,10 +1,10 @@
-# 🎵 YouTube Music Player Script
+# 🎵 YouTube Audio Player Script
 
-This Bash script allows you to browse and play the latest videos from selected YouTube music channels directly in your terminal, with interactive selection and playback.
+This Bash script allows you to browse and play the latest audio from selected YouTube channels directly in your terminal, with interactive selection and playback.
 
 ## 📌 What the Script Does
 
-- Displays a list of preconfigured music channels (e.g., lofi, classical).
+- Displays a list of preconfigured channels (e.g., lofi, classical).
 - Lets you choose a channel using `fzf` (fuzzy finder).
 - Fetches the latest 10 videos from the selected channel using `yt-dlp`.
 - Allows you to:
@@ -22,7 +22,7 @@ Make sure the following tools are installed:
 - [`fzf`](https://github.com/junegunn/fzf) — for interactive selection
 - [`mpv`](https://mpv.io/) — to play audio from YouTube
 
-### Install on Linux (Ubuntu / Arch)
+### Install dependencies on Linux (Ubuntu / Arch)
 
 ```bash
 # Ubuntu / Debian
@@ -35,7 +35,7 @@ sudo pacman -S yt-dlp jq fzf mpv
 
 ---
 
-How to Add Your Own Channel
+## How to Add Your Own Channel
 
 To add a custom YouTube channel:
 
